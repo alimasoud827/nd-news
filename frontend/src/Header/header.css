@@ -1,0 +1,96 @@
+.header{
+  display: flex;
+  flex-direction: column;
+}
+.header-top{
+  height: 80px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.header-left{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  overflow: hidden;
+  margin-left: 50px;
+}
+.header-left img{
+  height: 80%;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  overflow: hidden;
+}
+.header-left div{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.header-left div h2{
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+  margin: 0;
+}
+.header-left div h5{
+  color: white;
+  font-weight: 900;
+  margin: 0;
+  font-size: 0.8rem;  
+  margin: 5px 0 0 0; 
+}
+.header-right{
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+.header-right ul{
+  display: flex;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+.header-right ul li{
+  list-style: none;
+  transition: all 0.3s ease;
+}
+.header-right ul li a{
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+.header-right ul li a:hover{
+  text-decoration: underline;
+  color: #ccc;
+}
+.header-right div{
+  border: solid 1px white;
+  width: 250px;
+  margin-left: 20px;
+  border-radius: 4px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-right div input{
+  border: none;
+  background-color: transparent;
+  margin-left: 20px;
+  border-radius: 4px;
+  height: 30px;
+  outline: none;
+  color: white;
+  margin: 0;
+}
+.header-right div .search{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  margin-right: 10px;
+  padding: 0;
+}
+
